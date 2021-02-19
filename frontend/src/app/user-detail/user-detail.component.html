@@ -1,0 +1,12 @@
+<div *ngIf="user">
+    <h3>{{user.firstName | uppercase}} {{user.lastName | uppercase}}&rsquo;s details:</h3>
+    <div>
+        <p><span class="text-muted">First name: </span>{{user.firstName}}</p>
+        <p><span class="text-muted">Last name: </span>{{user.lastName}}</p>
+        <p><span class="text-muted">Age: </span>{{user.age}}</p>
+    </div><br>
+    <div class="btn-group">
+        <button class="btn btn-info btn-sm" (click)="goBack()">go back</button>
+        <a routerLink="edit" class="btn btn-danger btn-sm">edit</a>
+    </div>
+</div>
