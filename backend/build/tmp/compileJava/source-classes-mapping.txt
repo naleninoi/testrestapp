@@ -1,0 +1,8 @@
+com/example/testrestproject/repo/UserRepository.java
+ com.example.testrestproject.repo.UserRepository
+com/example/testrestproject/TestRestRunner.java
+ com.example.testrestproject.TestRestRunner
+com/example/testrestproject/models/User.java
+ com.example.testrestproject.models.User
+com/example/testrestproject/controllers/UserController.java
+ com.example.testrestproject.controllers.UserController
